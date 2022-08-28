@@ -17,10 +17,11 @@ We have a data set from the sale of houses in Australia. We want to build a regr
 
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+Below are the conclusions after building 3 models. One without regularisation and the other 2 models using regilarisation techniques (Ridge & Lasso)
+- The model built with out regularisation has clearly overfitted with `r2score (Trainging)` as `0.959` and `r2score (Test)` as `0.756`.
+- So the need has arrised to use regularisation techniques to optimally tune the model complexity.
+- The optimal value of alpha (hyper-parameter) for the model built using ridge regularisation was found to be around `1`
+- The optimal value of alpha (hyper-parameter) for the model built using lasso regularisation was found to be around `100`. We can also see that the lasso technique has eliminated 156 features simplifying the model representation.
 
 
 ## Technologies Used
